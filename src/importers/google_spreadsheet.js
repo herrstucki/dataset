@@ -55,6 +55,7 @@
       }
     }
     
+    this.extract = options.extract || this.extract;
 
     this.params = {
       type : "GET",
